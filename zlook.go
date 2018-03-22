@@ -49,7 +49,7 @@ var _ Inspector = inspectorImpl{}
 type FileExtensions []string
 
 // DefaultArchiveTypes represents the default collection of file extensions treaated as archives
-var DefaultArchiveTypes = []string{".zip", ".esa", ".jar"}
+var DefaultArchiveTypes = []string{".zip", ".esa", ".jar", ".ear", ".war"}
 
 // Get the value of FileExtensions
 func (t *FileExtensions) String() string {
