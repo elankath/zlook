@@ -5,8 +5,7 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"zlook"
-
+	"github.com/elankath/zlook"
 	"github.com/pkg/errors"
 )
 
